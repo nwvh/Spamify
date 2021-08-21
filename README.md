@@ -29,4 +29,12 @@ Spamify is a open-source python script that you can use to spam messages by your
 This script won't work on termux!
 
 
+# Screenshots
+
+![Spamify](https://i.imgur.com/l4yQGfV.png)
+![Spamify](https://i.imgur.com/svcx7da.png)
+![Spamify](https://i.imgur.com/xr5Msn3.png)
+![Spamify](https://i.imgur.com/5WIFeKW.png)
+
+
 
