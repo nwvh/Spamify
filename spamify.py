@@ -65,7 +65,7 @@ for i in range(0,int(messages)):
   print ("Message successfully sent! ",time.hour,":",time.minute,":",time.second, sep="")
 
 
-#If there's error with sending messages, the program will exit itself and send error messagrs
+#If there's error with sending messages, the program will exit itself and send error messages
 else:
 	print("Couldn't send the message! Check if you selected the text field correctly!")
 	sys.exit(0)
