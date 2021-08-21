@@ -70,7 +70,9 @@ else:
 	print("Couldn't send the message! Check if you selected the text field correctly!")
 	sys.exit(0)
 
-#This prints message "Stopped!" when user press CTRL+C
-def signal_handler(signal, frame):
-    print('Stopped!')
-    sys.exit(0)
+#This prints message "Stopped!" when user press CTRL+C (Currently not working)
+#def signal_handler(signal, frame):
+ #   print('Stopped!')
+  #  sys.exit(0)
+	
+print("All messages sent successfully! Thanks for using spamify <3")
