@@ -65,14 +65,13 @@ for i in range(0,int(messages)):
   print ("Message successfully sent! ",time.hour,":",time.minute,":",time.second, sep="")
 
 
-#If there's error with sending messages, the program will exit itself and send error messages
-else:
-	print("Couldn't send the message! Check if you selected the text field correctly!")
-	sys.exit(0)
+print("All messages sent successfully! Thanks for using spamify <3")
+#If there's error with sending messages, the program will exit itself and send error messagrs
 
-#This prints message "Stopped!" when user press CTRL+C (Currently not working)
+#This prints message "Stopped!" when user press CTRL+C
 #def signal_handler(signal, frame):
  #   print('Stopped!')
   #  sys.exit(0)
-	
-print("All messages sent successfully! Thanks for using spamify <3")
+
+
+
